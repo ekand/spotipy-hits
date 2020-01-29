@@ -1,0 +1,11 @@
+KEY	VALUE TYPE	VALUE DESCRIPTION
+album_type	string	“album”, “single”, or “compilation”.
+artists	array of simplified artist objects	The artists of the album. Each artist object includes a link in href to further information about the artist.
+available_markets	array of strings	The markets in which the album is available: ISO 3166-1 alpha-2 country codes. Note that an album is considered available in a market when at least 1 of its tracks is available in that market.
+external_urls	an external URL object	Known external URLs for this album.
+href	string	A link to the Web API endpoint providing full details of the album.
+id	string	The Spotify ID for the album.
+images	array of image objects	The cover art for the album in various sizes, widest first.
+name	string	The name of the album. In case of an album takedown, the value may be an empty string.
+type	string	The object type: “album”
+uri	string	The Spotify URI for the album.sd
